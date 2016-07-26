@@ -26,6 +26,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+//pid 是产品ID,需要在itunes connect上注册，同时需要添加沙盒测试员才能进行测试。
 -(void)iap:(NSString*)pid
 {
     NSSet* dataSet = [[NSSet alloc] initWithObjects:pid, nil];
