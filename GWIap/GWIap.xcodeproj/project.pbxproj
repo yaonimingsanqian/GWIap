@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE5CBE4B1D474CED00C64BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE4A1D474CED00C64BC4 /* main.m */; };
+		FE5CBE4E1D474CED00C64BC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE4D1D474CED00C64BC4 /* AppDelegate.m */; };
+		FE5CBE511D474CED00C64BC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE501D474CED00C64BC4 /* ViewController.m */; };
+		FE5CBE541D474CED00C64BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5CBE521D474CED00C64BC4 /* Main.storyboard */; };
+		FE5CBE561D474CED00C64BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5CBE551D474CED00C64BC4 /* Assets.xcassets */; };
+		FE5CBE591D474CED00C64BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5CBE571D474CED00C64BC4 /* LaunchScreen.storyboard */; };
+		FE5CBE641D474CED00C64BC4 /* GWIapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE631D474CED00C64BC4 /* GWIapTests.m */; };
+		FE5CBE6F1D474CED00C64BC4 /* GWIapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE6E1D474CED00C64BC4 /* GWIapUITests.m */; };
+		FE5CBE851D474D3600C64BC4 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE7E1D474D3600C64BC4 /* IAPHelper.m */; };
+		FE5CBE861D474D3600C64BC4 /* IAPShare.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE801D474D3600C64BC4 /* IAPShare.m */; };
+		FE5CBE871D474D3600C64BC4 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE821D474D3600C64BC4 /* NSString+Base64.m */; };
+		FE5CBE881D474D3600C64BC4 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5CBE841D474D3600C64BC4 /* SFHFKeychainUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5CBE601D474CED00C64BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5CBE3E1D474CED00C64BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5CBE451D474CED00C64BC4;
+			remoteInfo = GWIap;
+		};
+		FE5CBE6B1D474CED00C64BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5CBE3E1D474CED00C64BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5CBE451D474CED00C64BC4;
+			remoteInfo = GWIap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE5CBE461D474CED00C64BC4 /* GWIap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWIap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5CBE4A1D474CED00C64BC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE5CBE4C1D474CED00C64BC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE5CBE4D1D474CED00C64BC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE5CBE4F1D474CED00C64BC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE5CBE501D474CED00C64BC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE5CBE531D474CED00C64BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE5CBE551D474CED00C64BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE5CBE581D474CED00C64BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE5CBE5A1D474CED00C64BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5CBE5F1D474CED00C64BC4 /* GWIapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWIapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5CBE631D474CED00C64BC4 /* GWIapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWIapTests.m; sourceTree = "<group>"; };
+		FE5CBE651D474CED00C64BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5CBE6A1D474CED00C64BC4 /* GWIapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWIapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5CBE6E1D474CED00C64BC4 /* GWIapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWIapUITests.m; sourceTree = "<group>"; };
+		FE5CBE701D474CED00C64BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5CBE7D1D474D3600C64BC4 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		FE5CBE7E1D474D3600C64BC4 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		FE5CBE7F1D474D3600C64BC4 /* IAPShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPShare.h; sourceTree = "<group>"; };
+		FE5CBE801D474D3600C64BC4 /* IAPShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPShare.m; sourceTree = "<group>"; };
+		FE5CBE811D474D3600C64BC4 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		FE5CBE821D474D3600C64BC4 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		FE5CBE831D474D3600C64BC4 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		FE5CBE841D474D3600C64BC4 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5CBE431D474CED00C64BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5CBE5C1D474CED00C64BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5CBE671D474CED00C64BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE5CBE3D1D474CED00C64BC4 = {
+			isa = PBXGroup;
+			children = (
+				FE5CBE481D474CED00C64BC4 /* GWIap */,
+				FE5CBE621D474CED00C64BC4 /* GWIapTests */,
+				FE5CBE6D1D474CED00C64BC4 /* GWIapUITests */,
+				FE5CBE471D474CED00C64BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5CBE471D474CED00C64BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CBE461D474CED00C64BC4 /* GWIap.app */,
+				FE5CBE5F1D474CED00C64BC4 /* GWIapTests.xctest */,
+				FE5CBE6A1D474CED00C64BC4 /* GWIapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5CBE481D474CED00C64BC4 /* GWIap */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CBE7C1D474D3600C64BC4 /* gwiap */,
+				FE5CBE4C1D474CED00C64BC4 /* AppDelegate.h */,
+				FE5CBE4D1D474CED00C64BC4 /* AppDelegate.m */,
+				FE5CBE4F1D474CED00C64BC4 /* ViewController.h */,
+				FE5CBE501D474CED00C64BC4 /* ViewController.m */,
+				FE5CBE521D474CED00C64BC4 /* Main.storyboard */,
+				FE5CBE551D474CED00C64BC4 /* Assets.xcassets */,
+				FE5CBE571D474CED00C64BC4 /* LaunchScreen.storyboard */,
+				FE5CBE5A1D474CED00C64BC4 /* Info.plist */,
+				FE5CBE491D474CED00C64BC4 /* Supporting Files */,
+			);
+			path = GWIap;
+			sourceTree = "<group>";
+		};
+		FE5CBE491D474CED00C64BC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CBE4A1D474CED00C64BC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE5CBE621D474CED00C64BC4 /* GWIapTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CBE631D474CED00C64BC4 /* GWIapTests.m */,
+				FE5CBE651D474CED00C64BC4 /* Info.plist */,
+			);
+			path = GWIapTests;
+			sourceTree = "<group>";
+		};
+		FE5CBE6D1D474CED00C64BC4 /* GWIapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CBE6E1D474CED00C64BC4 /* GWIapUITests.m */,
+				FE5CBE701D474CED00C64BC4 /* Info.plist */,
+			);
+			path = GWIapUITests;
+			sourceTree = "<group>";
+		};
+		FE5CBE7C1D474D3600C64BC4 /* gwiap */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CBE7D1D474D3600C64BC4 /* IAPHelper.h */,
+				FE5CBE7E1D474D3600C64BC4 /* IAPHelper.m */,
+				FE5CBE7F1D474D3600C64BC4 /* IAPShare.h */,
+				FE5CBE801D474D3600C64BC4 /* IAPShare.m */,
+				FE5CBE811D474D3600C64BC4 /* NSString+Base64.h */,
+				FE5CBE821D474D3600C64BC4 /* NSString+Base64.m */,
+				FE5CBE831D474D3600C64BC4 /* SFHFKeychainUtils.h */,
+				FE5CBE841D474D3600C64BC4 /* SFHFKeychainUtils.m */,
+			);
+			path = gwiap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5CBE451D474CED00C64BC4 /* GWIap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5CBE731D474CED00C64BC4 /* Build configuration list for PBXNativeTarget "GWIap" */;
+			buildPhases = (
+				FE5CBE421D474CED00C64BC4 /* Sources */,
+				FE5CBE431D474CED00C64BC4 /* Frameworks */,
+				FE5CBE441D474CED00C64BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWIap;
+			productName = GWIap;
+			productReference = FE5CBE461D474CED00C64BC4 /* GWIap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE5CBE5E1D474CED00C64BC4 /* GWIapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5CBE761D474CED00C64BC4 /* Build configuration list for PBXNativeTarget "GWIapTests" */;
+			buildPhases = (
+				FE5CBE5B1D474CED00C64BC4 /* Sources */,
+				FE5CBE5C1D474CED00C64BC4 /* Frameworks */,
+				FE5CBE5D1D474CED00C64BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5CBE611D474CED00C64BC4 /* PBXTargetDependency */,
+			);
+			name = GWIapTests;
+			productName = GWIapTests;
+			productReference = FE5CBE5F1D474CED00C64BC4 /* GWIapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE5CBE691D474CED00C64BC4 /* GWIapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5CBE791D474CED00C64BC4 /* Build configuration list for PBXNativeTarget "GWIapUITests" */;
+			buildPhases = (
+				FE5CBE661D474CED00C64BC4 /* Sources */,
+				FE5CBE671D474CED00C64BC4 /* Frameworks */,
+				FE5CBE681D474CED00C64BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5CBE6C1D474CED00C64BC4 /* PBXTargetDependency */,
+			);
+			name = GWIapUITests;
+			productName = GWIapUITests;
+			productReference = FE5CBE6A1D474CED00C64BC4 /* GWIapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5CBE3E1D474CED00C64BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shawn;
+				TargetAttributes = {
+					FE5CBE451D474CED00C64BC4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FE5CBE5E1D474CED00C64BC4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE5CBE451D474CED00C64BC4;
+					};
+					FE5CBE691D474CED00C64BC4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE5CBE451D474CED00C64BC4;
+					};
+				};
+			};
+			buildConfigurationList = FE5CBE411D474CED00C64BC4 /* Build configuration list for PBXProject "GWIap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE5CBE3D1D474CED00C64BC4;
+			productRefGroup = FE5CBE471D474CED00C64BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5CBE451D474CED00C64BC4 /* GWIap */,
+				FE5CBE5E1D474CED00C64BC4 /* GWIapTests */,
+				FE5CBE691D474CED00C64BC4 /* GWIapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5CBE441D474CED00C64BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5CBE591D474CED00C64BC4 /* LaunchScreen.storyboard in Resources */,
+				FE5CBE561D474CED00C64BC4 /* Assets.xcassets in Resources */,
+				FE5CBE541D474CED00C64BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5CBE5D1D474CED00C64BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5CBE681D474CED00C64BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5CBE421D474CED00C64BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5CBE871D474D3600C64BC4 /* NSString+Base64.m in Sources */,
+				FE5CBE851D474D3600C64BC4 /* IAPHelper.m in Sources */,
+				FE5CBE861D474D3600C64BC4 /* IAPShare.m in Sources */,
+				FE5CBE881D474D3600C64BC4 /* SFHFKeychainUtils.m in Sources */,
+				FE5CBE511D474CED00C64BC4 /* ViewController.m in Sources */,
+				FE5CBE4E1D474CED00C64BC4 /* AppDelegate.m in Sources */,
+				FE5CBE4B1D474CED00C64BC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5CBE5B1D474CED00C64BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5CBE641D474CED00C64BC4 /* GWIapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5CBE661D474CED00C64BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5CBE6F1D474CED00C64BC4 /* GWIapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE5CBE611D474CED00C64BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5CBE451D474CED00C64BC4 /* GWIap */;
+			targetProxy = FE5CBE601D474CED00C64BC4 /* PBXContainerItemProxy */;
+		};
+		FE5CBE6C1D474CED00C64BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5CBE451D474CED00C64BC4 /* GWIap */;
+			targetProxy = FE5CBE6B1D474CED00C64BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE5CBE521D474CED00C64BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5CBE531D474CED00C64BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE5CBE571D474CED00C64BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5CBE581D474CED00C64BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5CBE711D474CED00C64BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE5CBE721D474CED00C64BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5CBE741D474CED00C64BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWIap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qicloud.GWIap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE5CBE751D474CED00C64BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWIap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qicloud.GWIap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE5CBE771D474CED00C64BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWIapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qicloud.GWIapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWIap.app/GWIap";
+			};
+			name = Debug;
+		};
+		FE5CBE781D474CED00C64BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWIapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qicloud.GWIapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWIap.app/GWIap";
+			};
+			name = Release;
+		};
+		FE5CBE7A1D474CED00C64BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWIapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qicloud.GWIapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWIap;
+			};
+			name = Debug;
+		};
+		FE5CBE7B1D474CED00C64BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWIapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qicloud.GWIapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWIap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5CBE411D474CED00C64BC4 /* Build configuration list for PBXProject "GWIap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5CBE711D474CED00C64BC4 /* Debug */,
+				FE5CBE721D474CED00C64BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5CBE731D474CED00C64BC4 /* Build configuration list for PBXNativeTarget "GWIap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5CBE741D474CED00C64BC4 /* Debug */,
+				FE5CBE751D474CED00C64BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5CBE761D474CED00C64BC4 /* Build configuration list for PBXNativeTarget "GWIapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5CBE771D474CED00C64BC4 /* Debug */,
+				FE5CBE781D474CED00C64BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5CBE791D474CED00C64BC4 /* Build configuration list for PBXNativeTarget "GWIapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5CBE7A1D474CED00C64BC4 /* Debug */,
+				FE5CBE7B1D474CED00C64BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5CBE3E1D474CED00C64BC4 /* Project object */;
+}
