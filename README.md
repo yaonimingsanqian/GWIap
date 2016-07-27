@@ -4,7 +4,15 @@
 
 使用方式
 ------------------------
-见demo
+```objc
+ NSSet* dataSet = [[NSSet alloc] initWithObjects:pid, nil];
+ if([IAPShare sharedHelper].iap){
+    [[SKPaymentQueue defaultQueue] removeTransactionObserver:[IAPShare sharedHelper].iap];
+ }
+ [IAPShare sharedHelper].iap = [[IAPHelper alloc] initWithProductIdentifiers:dataSet];
+ [IAPShare sharedHelper].iap.production = YES;
+
+```
 
 安装
 ------------------------
